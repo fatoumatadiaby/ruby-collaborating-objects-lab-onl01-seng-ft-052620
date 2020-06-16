@@ -15,6 +15,10 @@ class Song
    @@all
   end 
 
+def self.new_by_filename(file_name)
+
+
+end 
 
 # def artist_name=(artist)
 #   Artist.all.each do |artist| 

@@ -27,6 +27,10 @@ def add_song(song)
   end 
   
   def print_songs
-    songs.methods
+    songs.each { |song| puts song.name }
+    #reach every artist song file 
+    #put it in a list 
+    #print that list 
+    
   end
 end 
